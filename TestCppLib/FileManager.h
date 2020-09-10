@@ -20,6 +20,10 @@ public:
 	void ShowDstImage();
 	void ApplySobel();
 
+	
+
 private:
 	FilterConvolute* Filter;
+
+	string DstFileName();
 };
